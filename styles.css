@@ -1,6 +1,6 @@
 
 *{
-    background-image: url("/imagen/fondo.PNG");
+    background-image: url("./imagen/fondo.PNG");
     font-family: roboto;
     font-weight: 400;
     font-size: 32px;
