@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/reset.css">
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;0,700;1,100;1,400;1,700&display=swap"rel="stylesheet">
+    <title>Encriptado de texto</title>
+</head>
+<body>
+
+        <header>
+
+            <img src="/imagen/logo-alura.png" alt="logo-alura" class="logo-alura">
+
+        </header>
+
+        <main>
+
+            <section>
+                
+                <textarea class="text-area"  cols="30" rows="10" placeholder=" Ingrese el texto que desea encriptar"></textarea>
+
+                <div>
+                    
+                    <h6 class="validacion">Solo ingrese letras minisculas y sin acentos o caracter especial</h6>
+
+                </div>
+                <div class="botones">
+
+                    <button class="btn-encriptar" onclick="btnencriptar()">Encriptar</button>
+
+                    <button class="btn-desencriptar" onclick = "btndesencriptar()"> Desencriptar</button>
+
+                </div>
+
+            </section>
+            <section>
+
+                <textarea class="mensaje" cols="20" rows="15"></textarea>
+
+                <div class="btn-copiar">
+
+                    <button class="copiar" onclick="copiar()" >Copiar</button>
+                    
+                </div>
+            </section>
+        </main>
+
+        <script src="/scrip.js"></script>
+
+        <footer class="piedepagina">
+
+            <a href="https://github.com/"><img class="logo-git" src="/imagen/logo-git.png" alt="git" ></a>
+    
+           <a href="https://www.linkedin.com/in/edwin-ramon-guerrero-garcia-66bb76a2/"><img class="logo-linke" src="/imagen/logo-linken.png" 
+            alt="linkein"></a>
+            <p class="creador">Realizado por Edwin Guerrero Garcia</p>
+        </footer>
+    </body>
+</html>
